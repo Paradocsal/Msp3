@@ -1,9 +1,9 @@
 package Commands;
 
-public class Calculator {
-    public static String Calculate(double x, double y, double R) {
+class Calculator {
+    static String Calculate(double x, double y, double R) {
 
-        String result = new String();
+        String result;
 
         if (x<=0 & y<=0 & x>=-R/2 & y>=-R){
             result = "successful hit";
