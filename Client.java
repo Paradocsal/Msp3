@@ -1,6 +1,5 @@
 import Commands.*;
 
-import java.util.Calendar;
 import java.util.Scanner;
 
 public class Client {
